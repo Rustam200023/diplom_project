@@ -9,7 +9,6 @@ from .schemas.token import TokenDataSchema
 
 from .repository.users import get_user_by_email
 
-# Environmental variables
 env = Env()
 env.read_env()
 
